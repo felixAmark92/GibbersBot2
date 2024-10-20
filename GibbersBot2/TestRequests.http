@@ -3,3 +3,5 @@ GET https://examples.http-client.intellij.net/get
     ?generated-in=JetBrains Rider
 
 ###
+GET https://api.waifu.im/search?included_tags=raiden-shogun&included_tags=maid&min_height=2000
+-H 'Content-Type: application/json'

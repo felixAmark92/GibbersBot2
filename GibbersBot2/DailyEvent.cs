@@ -1,11 +1,11 @@
 namespace GibbersBot2;
 
-public class TimedEvent
+public class DailyEvent
 {
     private readonly Timer _timer;
     private readonly Func<Task> _task;
 
-    public TimedEvent(int hour, int min, Func<Task> task)
+    public DailyEvent(int hour, int min, Func<Task> task)
     {
         _task = task;
         var timeTrigger = new TimeSpan(0, hour, min, 0);
